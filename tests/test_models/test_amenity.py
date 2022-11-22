@@ -12,6 +12,7 @@ import pep8
 import unittest
 Amenity = amenity.Amenity
 
+
 class TestAmenityDocs(unittest.TestCase):
     """Tests to check the documentation and style of Amenity class"""
     @classmethod
@@ -103,3 +104,4 @@ class TestAmenity(unittest.TestCase):
         amenity = Amenity()
         string = "[Amenity] ({}) {}".format(amenity.id, amenity.__dict__)
         self.assertEqual(string, str(amenity))
+
